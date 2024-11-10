@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# Product Management Full-Stack Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 1. Overview
+**Project Name**: Zero Shop
 
-## Available Scripts
+**Description**:
+Zero Shop is a full-stack application with CRUD functionality, allowing admins to add, update, and delete products. Authenticated and unauthenticated users can view products, see product details, search, and navigate through paginated results. The application also supports user registration and login features.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 2. Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Frontend
+- **React**: Used for building a responsive and dynamic user interface.
+- **React Router**: Manages application routing for a seamless navigation experience.
+- **Bootstrap**: Provides responsive design elements and pre-styled components for rapid development.
+- **Axios**: Handles HTTP requests and manages API calls with the backend.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Backend
+- **Django**: Serves as the backend framework to manage server-side logic and database operations.
+- **Django REST Framework (DRF)**: Enables building RESTful APIs that allow frontend and backend communication.
+- **Django JWT Authentication**: Secures the application using JSON Web Tokens for user authentication.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Database
+- **SQLite**: Utilizes SQLite as the database for simplicity and ease of setup.
 
 ### Deployment
+- **Netlify**: Hosts the frontend React application, providing continuous deployment and fast loading speeds.
+- **Render**: Deploys the backend Django API, ensuring a scalable and reliable backend service.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- **Frontend Live Link**: [Frontend Live Link](https://zeroshoponline.netlify.app/)
+- **Backend Live Link**: [Backend Live Link](https://zeroshop.onrender.com/)
 
-### `npm run build` fails to minify
+---
+### Credentials
+- **Admin**: ``` username: admin , password: 1234```
+- **Dummy User**: ```username: elias , password: elias123```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 3. Key Features
+- User Registration, Login, and Logout
+- Product Listing
+- Product Search and Pagination
+- Token-based Authentication with JWT
+- CRUD operations for Products
+- Responsive and Mobile-friendly UI
+- Secure and Scalable Architecture
+
+
+## 4. Screenshots
+### Homepage
+![Homepage](https://i.imgur.com/qtaAKSZ.jpg)
+
+### Products
+![Products](https://i.imgur.com/zEfSGbZ.jpg)
+
+### Search
+![Search](https://i.imgur.com/hkZzclC.jpg)
+
+### Pagination
+![Pagination](https://i.imgur.com/hZvrjae.jpg)
+
+### Product Details
+![Product Details](https://i.imgur.com/mnvI4l2.jpg)
+
+### Product Update
+![Product Update](https://i.imgur.com/oJNBasl.jpg)
+
+### Add Product
+![Add Product](https://i.imgur.com/ferkD0D.jpg)
+
+### Register
+![Register](https://i.imgur.com/A3GuAIm.jpg)
+
+### Login
+![Login](https://i.imgur.com/4faP94l.jpg)
+
+### Logout
+![Logout](https://i.imgur.com/lrzonmg.jpg)
